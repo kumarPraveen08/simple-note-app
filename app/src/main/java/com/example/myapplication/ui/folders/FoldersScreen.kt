@@ -43,7 +43,6 @@ import com.example.myapplication.ui.components.ActionSheetContent
 import com.example.myapplication.ui.components.EmptyState
 import com.example.myapplication.ui.components.FolderCard
 import com.example.myapplication.ui.components.SheetListAction
-import com.example.myapplication.ui.components.SheetQuickAction
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -133,17 +132,6 @@ fun FoldersScreen(
                         }
                     }
                 },
-                quickActions = listOf(
-                    SheetQuickAction(Icons.Default.Edit, "Rename") {
-                        folderName = folder.name
-                        actionFolder = null
-                        renameFolder = folder
-                    },
-                    SheetQuickAction(Icons.Default.Delete, "Delete") {
-                        actionFolder = null
-                        deleteFolder = folder
-                    }
-                ),
                 listActions = listOf(
                     SheetListAction(
                         Icons.Default.Edit,

@@ -2587,7 +2587,7 @@
       "label": "FoldersScreen()",
       "file_type": "code",
       "source_file": "app/src/main/java/com/example/myapplication/ui/folders/FoldersScreen.kt",
-      "source_location": "L48",
+      "source_location": "L47",
       "_origin": "ast",
       "id": "folders_foldersscreen_foldersscreen",
       "community": 23,
@@ -2597,7 +2597,7 @@
       "label": "HomeViewModel",
       "file_type": "code",
       "source_file": "app/src/main/java/com/example/myapplication/ui/folders/FoldersScreen.kt",
-      "source_location": "L48",
+      "source_location": "L47",
       "_origin": "ast",
       "id": "app_src_main_java_com_example_myapplication_ui_folders_foldersscreen_kt_homeviewmodel",
       "community": 23,
@@ -2607,7 +2607,7 @@
       "label": "FolderNameDialog()",
       "file_type": "code",
       "source_file": "app/src/main/java/com/example/myapplication/ui/folders/FoldersScreen.kt",
-      "source_location": "L224",
+      "source_location": "L212",
       "_origin": "ast",
       "id": "folders_foldersscreen_foldernamedialog",
       "community": 23,
@@ -2617,7 +2617,7 @@
       "label": "String",
       "file_type": "code",
       "source_file": "app/src/main/java/com/example/myapplication/ui/folders/FoldersScreen.kt",
-      "source_location": "L224",
+      "source_location": "L212",
       "_origin": "ast",
       "id": "app_src_main_java_com_example_myapplication_ui_folders_foldersscreen_kt_string",
       "community": 23,
@@ -6013,9 +6013,9 @@
       "source_file": "app/src/main/java/com/example/myapplication/ui/HomeViewModel.kt",
       "source_location": "L145",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "ui_homeviewmodel",
-      "target": "ui_homeviewmodel_factory",
-      "confidence_score": 1.0
+      "target": "ui_homeviewmodel_factory"
     },
     {
       "relation": "contains",
@@ -6023,9 +6023,9 @@
       "source_file": "app/src/main/java/com/example/myapplication/ui/HomeViewModel.kt",
       "source_location": "L24",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "ui_homeviewmodel",
-      "target": "ui_homeviewmodel_homeuistate",
-      "confidence_score": 1.0
+      "target": "ui_homeviewmodel_homeuistate"
     },
     {
       "relation": "contains",
@@ -6033,9 +6033,9 @@
       "source_file": "app/src/main/java/com/example/myapplication/ui/HomeViewModel.kt",
       "source_location": "L34",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "ui_homeviewmodel",
-      "target": "ui_homeviewmodel_homeviewmodel",
-      "confidence_score": 1.0
+      "target": "ui_homeviewmodel_homeviewmodel"
     },
     {
       "relation": "references",
@@ -6994,9 +6994,9 @@
       "source_location": "L272",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "components_actionsheets_actionsheetheader",
-      "target": "app_src_main_java_com_example_myapplication_ui_components_actionsheets_kt_unit",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_com_example_myapplication_ui_components_actionsheets_kt_unit"
     },
     {
       "relation": "references",
@@ -7027,9 +7027,9 @@
       "source_location": "L382",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "components_actionsheets_actionsheetcontent",
-      "target": "app_src_main_java_com_example_myapplication_ui_components_actionsheets_kt_unit",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_com_example_myapplication_ui_components_actionsheets_kt_unit"
     },
     {
       "relation": "calls",
@@ -7103,9 +7103,9 @@
       "source_file": "app/src/main/java/com/example/myapplication/ui/components/Components.kt",
       "source_location": "L192",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_components",
-      "target": "components_components_colorswatch",
-      "confidence_score": 1.0
+      "target": "components_components_colorswatch"
     },
     {
       "relation": "contains",
@@ -7113,9 +7113,9 @@
       "source_file": "app/src/main/java/com/example/myapplication/ui/components/Components.kt",
       "source_location": "L234",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_components",
-      "target": "components_components_emptystate",
-      "confidence_score": 1.0
+      "target": "components_components_emptystate"
     },
     {
       "relation": "contains",
@@ -7123,9 +7123,9 @@
       "source_file": "app/src/main/java/com/example/myapplication/ui/components/Components.kt",
       "source_location": "L127",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_components",
-      "target": "components_components_foldercard",
-      "confidence_score": 1.0
+      "target": "components_components_foldercard"
     },
     {
       "relation": "contains",
@@ -7133,9 +7133,9 @@
       "source_file": "app/src/main/java/com/example/myapplication/ui/components/Components.kt",
       "source_location": "L46",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_components",
-      "target": "components_components_notecard",
-      "confidence_score": 1.0
+      "target": "components_components_notecard"
     },
     {
       "relation": "contains",
@@ -7143,9 +7143,9 @@
       "source_file": "app/src/main/java/com/example/myapplication/ui/components/Components.kt",
       "source_location": "L224",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_components",
-      "target": "components_components_sectionlabel",
-      "confidence_score": 1.0
+      "target": "components_components_sectionlabel"
     },
     {
       "relation": "references",
@@ -7253,9 +7253,9 @@
       "source_location": "L127",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "components_components_foldercard",
-      "target": "app_src_main_java_com_example_myapplication_ui_components_components_kt_unit",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_com_example_myapplication_ui_components_components_kt_unit"
     },
     {
       "relation": "calls",
@@ -8127,9 +8127,9 @@
       "source_file": "app/src/main/java/com/example/myapplication/ui/folders/FoldersScreen.kt",
       "source_location": "L224",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "folders_foldersscreen",
-      "target": "folders_foldersscreen_foldernamedialog",
-      "confidence_score": 1.0
+      "target": "folders_foldersscreen_foldernamedialog"
     },
     {
       "relation": "contains",
@@ -8137,9 +8137,9 @@
       "source_file": "app/src/main/java/com/example/myapplication/ui/folders/FoldersScreen.kt",
       "source_location": "L48",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "folders_foldersscreen",
-      "target": "folders_foldersscreen_foldersscreen",
-      "confidence_score": 1.0
+      "target": "folders_foldersscreen_foldersscreen"
     },
     {
       "relation": "references",
@@ -8159,9 +8159,9 @@
       "source_file": "app/src/main/java/com/example/myapplication/ui/folders/FoldersScreen.kt",
       "source_location": "L173",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "folders_foldersscreen_foldersscreen",
-      "target": "folders_foldersscreen_foldernamedialog",
-      "confidence_score": 1.0
+      "target": "folders_foldersscreen_foldernamedialog"
     },
     {
       "relation": "references",
@@ -8170,9 +8170,9 @@
       "source_location": "L224",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "folders_foldersscreen_foldernamedialog",
-      "target": "app_src_main_java_com_example_myapplication_ui_folders_foldersscreen_kt_string",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_com_example_myapplication_ui_folders_foldersscreen_kt_string"
     },
     {
       "relation": "contains",
@@ -8914,9 +8914,9 @@
       "source_file": "docs/BUILD.md",
       "source_location": "L70",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_build_release_apks",
-      "target": "docs_build_cut_a_github_release",
-      "confidence_score": 1.0
+      "target": "docs_build_cut_a_github_release"
     },
     {
       "relation": "contains",
@@ -8930,5 +8930,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "ddd431e630f710b65cfb20c88f00a560f290eb7f"
+  "built_at_commit": "184f1424250ed1ff7351dbb4c94c0696839d73d8"
 }

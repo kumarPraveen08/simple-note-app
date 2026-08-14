@@ -13,6 +13,8 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v5
+        with:
+          fetch-tags: true
 
       - uses: actions/setup-java@v5
         with:
@@ -59,6 +61,11 @@ jobs:
             abi=${abi%-release.apk}
             cp "$f" "dist/Notes-${VERSION}-${abi}.apk"
           done
+          if [ "${GITHUB_REF_TYPE}" = "tag" ]; then
+            git tag -l --format='%(contents)' "$GITHUB_REF_NAME" > dist/RELEASE_NOTES.md
+          else
+            : > dist/RELEASE_NOTES.md
+          fi
           ls -lh dist
 
       - uses: actions/upload-artifact@v5
@@ -72,6 +79,6 @@ jobs:
           tag_name: ${{ github.ref_type == 'tag' && github.ref_name || format('v{0}', steps.meta.outputs.version) }}
           name: Notes ${{ steps.meta.outputs.version }}
           files: dist/*.apk
-          generate_release_notes: true
+          body_path: dist/RELEASE_NOTES.md
           prerelease: ${{ steps.meta.outputs.prerelease }}
           make_latest: ${{ steps.meta.outputs.make_latest }}

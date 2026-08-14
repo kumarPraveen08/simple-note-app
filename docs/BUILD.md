@@ -84,16 +84,22 @@ Alpha / beta / rc are marked **pre-release** and are not “Latest”. Bump `ver
 1. Merge the PR (or push the commits) to `main`.
 2. On `main`, edit `versionName` and `versionCode`.
 3. Commit, e.g. `release: 1.0.1`.
-4. Push `main`, then tag **the same** version and push the tag:
+4. Push `main`, then create an **annotated** tag with your changelog and push it:
 
 ```bash
 git push origin main
-git tag v1.0.1
+git tag -a v1.0.1 -m "$(cat <<'EOF'
+## What's new
+- Rename and delete folders from the folder sheet
+
+## Install
+Use Notes-1.0.1-universal.apk unless you know your CPU.
+EOF
+)"
 git push origin v1.0.1
 ```
 
-5. Wait for the **Release** workflow. It creates **Notes 1.0.1** and attaches the APKs. GitHub fills notes from merged PRs.
-6. Open the release → **Edit** to write a real description (what changed, who should install universal vs arm64). Save.
+5. Wait for the **Release** workflow. It creates **Notes 1.0.1**, attaches the APKs, and uses that tag message as the changelog.
 
 Tag must match `versionName` (`v` + name). Don’t tag an old commit.
 
