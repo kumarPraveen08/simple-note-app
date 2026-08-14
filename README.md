@@ -34,8 +34,8 @@ Notes is a local notes app. No account, no cloud. You can write, pin, search, an
 ## Screenshots
 
 <p align="center">
-  <img src="docs/screenshots/home-light.png" alt="Home screen, light theme" width="220">
-  <img src="docs/screenshots/home-dark.png" alt="Home screen, dark theme" width="220">
-  <img src="docs/screenshots/look-and-feel-light.png" alt="Look and feel, light theme" width="220">
-  <img src="docs/screenshots/look-and-feel-dark.png" alt="Look and feel, dark theme" width="220">
+  <img src="docs/screenshots/home-light.png" alt="Home screen, light theme" width="200">
+  <img src="docs/screenshots/home-dark.png" alt="Home screen, dark theme" width="200">
+  <img src="docs/screenshots/look-and-feel-light.png" alt="Look and feel, light theme" width="200">
+  <img src="docs/screenshots/look-and-feel-dark.png" alt="Look and feel, dark theme" width="200">
 </p>
