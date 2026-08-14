@@ -69,14 +69,14 @@ Then run `./gradlew :app:assembleRelease` again.
 
 ### GitHub Releases
 
-Push a version tag. CI builds the APKs and attaches them to the release:
+Use semver tags (`v1.0.0`). CI builds the APKs and attaches them to a GitHub Release named **Notes 1.0.0**:
 
 ```bash
-git tag v1.0
-git push origin v1.0
+git tag v1.0.0
+git push origin v1.0.0
 ```
 
-You can also run the **Release** workflow by hand from the Actions tab.
+Or run **Release** from the Actions tab — that also creates the release and uploads the APKs.
 
 To sign CI builds with your key, add these repo secrets:
 

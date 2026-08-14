@@ -1,7 +1,7 @@
 {
   "app/build.gradle.kts": {
-    "mtime": 1786692950.484608,
-    "ast_hash": "9987c28e70277d343a3b2d458728efbc",
+    "mtime": 1786694664.6814692,
+    "ast_hash": "4a8575219688bb7ae0c6543e7d847e35",
     "semantic_hash": ""
   },
   "app/src/androidTest/java/com/example/myapplication/ExampleInstrumentedTest.kt": {
@@ -230,8 +230,8 @@
     "semantic_hash": ""
   },
   ".github/workflows/release.yml": {
-    "mtime": 1786692963.991933,
-    "ast_hash": "a2254dd16f51a3eee6e5d0e8d989fc8b",
+    "mtime": 1786694664.6816769,
+    "ast_hash": "3242a67d3cf015730136b0a39b01d955",
     "semantic_hash": ""
   },
   "README.md": {
@@ -240,8 +240,8 @@
     "semantic_hash": ""
   },
   "docs/BUILD.md": {
-    "mtime": 1786692965.5780275,
-    "ast_hash": "42fbbd0985502c8085e1314ece0505df",
+    "mtime": 1786694664.6814477,
+    "ast_hash": "e1c401d77f468a5fe4423fc7c856bb11",
     "semantic_hash": ""
   },
   "app/src/main/ic_launcher-playstore.png": {
