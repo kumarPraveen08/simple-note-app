@@ -1,16 +1,16 @@
 # Graph Report - MyApplication  (2026-08-14)
 
 ## Corpus Check
-- 38 files · ~154,861 words
+- 38 files · ~155,501 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 338 nodes · 513 edges · 26 communities (22 shown, 4 thin omitted)
-- Extraction: 95% EXTRACTED · 5% INFERRED · 0% AMBIGUOUS · INFERRED: 24 edges (avg confidence: 0.8)
+- 341 nodes · 520 edges · 28 communities (24 shown, 4 thin omitted)
+- Extraction: 95% EXTRACTED · 5% INFERRED · 0% AMBIGUOUS · INFERRED: 27 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `376143d8`
+- Built from commit: `ddd431e6`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -37,26 +37,28 @@
 - [[_COMMUNITY_Community 21|Community 21]]
 - [[_COMMUNITY_Community 23|Community 23]]
 - [[_COMMUNITY_Community 24|Community 24]]
+- [[_COMMUNITY_Community 26|Community 26]]
+- [[_COMMUNITY_Community 27|Community 27]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `NotesRepository` - 27 edges
 2. `NoteEditorViewModel` - 24 edges
 3. `HomeViewModel` - 18 edges
 4. `NoteEntity` - 16 edges
-5. `Long` - 12 edges
-6. `ActionSheetContent()` - 12 edges
+5. `ActionSheetContent()` - 13 edges
+6. `Long` - 12 edges
 7. `HomeScreen()` - 12 edges
 8. `NoteDao` - 10 edges
 9. `NotesApp()` - 10 edges
 10. `Long` - 9 edges
 
 ## Surprising Connections (you probably didn't know these)
-- `NotesApp()` --calls--> `Composable`  [INFERRED]
-  app/src/main/java/com/example/myapplication/ui/NotesApp.kt → app/src/main/java/com/example/myapplication/ui/components/ActionSheets.kt
-- `NotesApp()` --calls--> `LookAndFeelScreen()`  [INFERRED]
-  app/src/main/java/com/example/myapplication/ui/NotesApp.kt → app/src/main/java/com/example/myapplication/ui/settings/LookAndFeelScreen.kt
-- `SettingsScreen()` --calls--> `SettingsNavItem()`  [INFERRED]
-  app/src/main/java/com/example/myapplication/ui/settings/SettingsScreen.kt → app/src/main/java/com/example/myapplication/ui/components/ActionSheets.kt
+- `NotesApp()` --calls--> `NoteEditorScreen()`  [INFERRED]
+  app/src/main/java/com/example/myapplication/ui/NotesApp.kt → app/src/main/java/com/example/myapplication/ui/editor/NoteEditorScreen.kt
+- `NotesApp()` --calls--> `HomeScreen()`  [INFERRED]
+  app/src/main/java/com/example/myapplication/ui/NotesApp.kt → app/src/main/java/com/example/myapplication/ui/home/HomeScreen.kt
+- `NotesApp()` --calls--> `NotesExpressiveTheme()`  [INFERRED]
+  app/src/main/java/com/example/myapplication/ui/NotesApp.kt → app/src/main/java/com/example/myapplication/ui/theme/Theme.kt
 - `HomeScreen()` --calls--> `SheetQuickAction`  [INFERRED]
   app/src/main/java/com/example/myapplication/ui/home/HomeScreen.kt → app/src/main/java/com/example/myapplication/ui/components/ActionSheets.kt
 - `HomeScreen()` --calls--> `SheetListAction`  [INFERRED]
@@ -65,15 +67,15 @@
 ## Import Cycles
 - None detected.
 
-## Communities (26 total, 4 thin omitted)
+## Communities (28 total, 4 thin omitted)
 
 ### Community 0 - "Community 0"
 Cohesion: 0.12
 Nodes (13): AttachmentEntity, Boolean, Flow, FolderEntity, List, Long, NoteEntity, NoteSort (+5 more)
 
 ### Community 1 - "Community 1"
-Cohesion: 0.06
-Nodes (39): android, Boolean, FolderEntity, Int, Long, Modifier, NoteEntity, String (+31 more)
+Cohesion: 0.10
+Nodes (26): android, Boolean, FolderEntity, Int, Long, Modifier, NoteEntity, String (+18 more)
 
 ### Community 2 - "Community 2"
 Cohesion: 0.13
@@ -121,7 +123,7 @@ Nodes (4): AttachmentEntity, FolderEntity, NoteEntity, NoteVersionEntity
 
 ### Community 17 - "Community 17"
 Cohesion: 0.25
-Nodes (7): Android Studio, Build guide, Command line, GitHub Releases, Release APKs, Sign with your own key (optional, recommended), What you need
+Nodes (7): Android Studio, Build guide, Command line, Cut a GitHub release, Release APKs, Sign with your own key (optional, recommended), What you need
 
 ### Community 18 - "Community 18"
 Cohesion: 0.50
@@ -132,15 +134,23 @@ Cohesion: 0.18
 Nodes (10): applicationId, artifactType, kind, type, baselineProfiles, elements, elementType, minSdkVersionForDexing (+2 more)
 
 ### Community 23 - "Community 23"
-Cohesion: 0.18
-Nodes (22): AppThemeStyle, Boolean, List, Modifier, String, SettingsViewModel, ActionSheetContent(), ActionSheetHeader() (+14 more)
+Cohesion: 0.10
+Nodes (31): AppThemeStyle, Boolean, List, Modifier, String, Unit, HomeViewModel, String (+23 more)
 
 ### Community 24 - "Community 24"
 Cohesion: 0.43
 Nodes (6): AppThemeStyle, Color, AppThemePalette, palette(), Surfaces, ThemePalettePreview
 
+### Community 26 - "Community 26"
+Cohesion: 0.40
+Nodes (4): AppThemeStyle, Boolean, ThemeMode, NotesExpressiveTheme()
+
+### Community 27 - "Community 27"
+Cohesion: 0.40
+Nodes (3): Bundle, ComponentActivity, MainActivity
+
 ## Knowledge Gaps
-- **89 isolated node(s):** `String`, `version`, `type`, `kind`, `applicationId` (+84 more)
+- **91 isolated node(s):** `String`, `version`, `type`, `kind`, `applicationId` (+86 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **4 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -148,16 +158,16 @@ Nodes (6): AppThemeStyle, Color, AppThemePalette, palette(), Surfaces, ThemePale
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `NoteEditorViewModel` connect `Community 3` to `Community 7`?**
-  _High betweenness centrality (0.033) - this node is a cross-community bridge._
+  _High betweenness centrality (0.032) - this node is a cross-community bridge._
 - **Why does `HomeViewModel` connect `Community 4` to `Community 7`?**
   _High betweenness centrality (0.028) - this node is a cross-community bridge._
-- **Why does `NotesApp()` connect `Community 1` to `Community 23`?**
+- **Why does `NotesApp()` connect `Community 23` to `Community 1`, `Community 26`, `Community 27`?**
   _High betweenness centrality (0.025) - this node is a cross-community bridge._
+- **Are the 2 inferred relationships involving `ActionSheetContent()` (e.g. with `FoldersScreen()` and `HomeScreen()`) actually correct?**
+  _`ActionSheetContent()` has 2 INFERRED edges - model-reasoned connections that need verification._
 - **What connects `String`, `version`, `type` to the rest of the system?**
-  _89 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _91 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 0` be split into smaller, more focused modules?**
   _Cohesion score 0.12051282051282051 - nodes in this community are weakly interconnected._
 - **Should `Community 1` be split into smaller, more focused modules?**
-  _Cohesion score 0.055272108843537414 - nodes in this community are weakly interconnected._
-- **Should `Community 2` be split into smaller, more focused modules?**
-  _Cohesion score 0.1265597147950089 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.10098522167487685 - nodes in this community are weakly interconnected._

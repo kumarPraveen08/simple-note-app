@@ -132,7 +132,13 @@ class HomeViewModel(
     }
 
     fun deleteFolder(folder: FolderEntity) {
-        viewModelScope.launch { notesRepository.deleteFolder(folder) }
+        viewModelScope.launch {
+            notesRepository.deleteFolder(folder)
+            if (selectedFolderId.value == folder.id) {
+                selectedFolderId.value = null
+                if (filter.value == NoteFilter.FOLDER) filter.value = NoteFilter.ALL
+            }
+        }
     }
 
     companion object {
