@@ -1,48 +1,41 @@
-# Notes
+<p align="center">
+  <img src="docs/img/logo.png" alt="Notes logo" width="96">
+</p>
 
-Local-first Android notes app. Jetpack Compose UI, Room on device, no backend.
+<h1 align="center">Notes</h1>
 
-## What it does
+<p align="center">
+  A simple notes app for Android.<br>
+  Write things down. Keep them on your phone.
+</p>
 
-- Notes with title, body, tags, color, checklists, and file attachments
-- Folders, pin, archive, trash (restore or delete)
-- Version history with restore
-- Search plus sort (date or title; pinned stay on top)
-- Theme: system / light / dark, optional Material You, eight palettes
-- Local profile (name, email, bio)
+<p align="center">
+  <a href="docs/BUILD.md">Build guide</a> ·
+  <a href="LICENSE">MIT License</a>
+</p>
 
-## Stack
+## About
 
-| | |
-|---|---|
-| Language | Kotlin 2.4 |
-| UI | Compose + Material 3 + Navigation |
-| Data | Room (`notes.db`) + DataStore |
-| Images | Coil |
-| minSdk / targetSdk | 24 / 36 |
+Notes is a local notes app. No account, no cloud. You can write, pin, search, and sort notes, put them in folders, and attach files. Light and dark themes are built in.
 
-## Run
+## Features
 
-Android Studio: open this folder, sync Gradle, run the `app` module.
+- Write notes with a title and body
+- Pin important notes
+- Search notes and tags
+- Folders to keep things tidy
+- Checklists, tags, and note colors
+- Attach files to a note
+- Archive and trash, with restore
+- Version history if you want to go back
+- Light, dark, or follow the phone
+- Pick a color style, or use wallpaper colors
 
-CLI:
+## Screenshots
 
-```bash
-./gradlew :app:installDebug
-```
-
-Needs JDK 11+.
-
-## Layout
-
-```
-app/src/main/java/com/example/myapplication/
-  data/          Room entities, DAOs, repositories
-  ui/home/       note list, filters
-  ui/editor/     note editor + autosave
-  ui/folders/    folder management
-  ui/settings/   settings, look & feel, profile
-  ui/theme/      palettes
-```
-
-`NotesApplication` owns `NotesRepository` and `SettingsRepository`. Screens talk to those through ViewModels.
+<p align="center">
+  <img src="docs/screenshots/home-light.png" alt="Home screen, light theme" width="220">
+  <img src="docs/screenshots/home-dark.png" alt="Home screen, dark theme" width="220">
+  <img src="docs/screenshots/look-and-feel-light.png" alt="Look and feel, light theme" width="220">
+  <img src="docs/screenshots/look-and-feel-dark.png" alt="Look and feel, dark theme" width="220">
+</p>
