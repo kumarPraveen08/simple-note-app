@@ -18,6 +18,15 @@
 
 Notes is a local notes app. No account, no cloud. You can write, pin, search, and sort notes, put them in folders, and attach files. Light and dark themes are built in.
 
+## Screenshots
+
+<p align="center">
+  <img src="docs/screenshots/home-light.png" alt="Home screen, light theme" width="200">
+  <img src="docs/screenshots/home-dark.png" alt="Home screen, dark theme" width="200">
+  <img src="docs/screenshots/look-and-feel-light.png" alt="Look and feel, light theme" width="200">
+  <img src="docs/screenshots/look-and-feel-dark.png" alt="Look and feel, dark theme" width="200">
+</p>
+
 ## Features
 
 - Write notes with a title and body
@@ -30,12 +39,3 @@ Notes is a local notes app. No account, no cloud. You can write, pin, search, an
 - Version history if you want to go back
 - Light, dark, or follow the phone
 - Pick a color style, or use wallpaper colors
-
-## Screenshots
-
-<p align="center">
-  <img src="docs/screenshots/home-light.png" alt="Home screen, light theme" width="200">
-  <img src="docs/screenshots/home-dark.png" alt="Home screen, dark theme" width="200">
-  <img src="docs/screenshots/look-and-feel-light.png" alt="Look and feel, light theme" width="200">
-  <img src="docs/screenshots/look-and-feel-dark.png" alt="Look and feel, dark theme" width="200">
-</p>
