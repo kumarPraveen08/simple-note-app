@@ -12,9 +12,12 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: actions/checkout@v5
-        with:
-          ref: ${{ github.sha }}
+      - name: Checkout
+        run: |
+          git init
+          git remote add origin "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git"
+          git fetch --depth=1 origin "${{ github.sha }}"
+          git checkout --force FETCH_HEAD
 
       - uses: actions/setup-java@v5
         with:
