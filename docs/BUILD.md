@@ -67,16 +67,35 @@ keyPassword=your-key-password
 
 Then run `./gradlew :app:assembleRelease` again.
 
-### GitHub Releases
+### Cut a GitHub release
 
-Use semver tags (`v1.0.0`). CI builds the APKs and attaches them to a GitHub Release named **Notes 1.0.0**:
+Do this **after** the commits or PR are on `main`. Version lives in `app/build.gradle.kts`: `versionName` (what people see) and `versionCode` (must always go up).
+
+| Kind | `versionName` | Tag | Example |
+|---|---|---|---|
+| Patch (bugfix) | `1.0.0` → `1.0.1` | `v1.0.1` | typo, crash |
+| Minor (feature) | `1.0.1` → `1.1.0` | `v1.1.0` | new screen |
+| Major (breaking) | `1.1.0` → `2.0.0` | `v2.0.0` | data format change |
+| Alpha | `1.1.0-alpha.1` | `v1.1.0-alpha.1` | early test |
+| RC | `1.1.0-rc.1` | `v1.1.0-rc.1` | almost stable |
+
+Alpha / beta / rc are marked **pre-release** and are not “Latest”. Bump `versionCode` by 1 every time, including pre-releases.
+
+1. Merge the PR (or push the commits) to `main`.
+2. On `main`, edit `versionName` and `versionCode`.
+3. Commit, e.g. `release: 1.0.1`.
+4. Push `main`, then tag **the same** version and push the tag:
 
 ```bash
-git tag v1.0.0
-git push origin v1.0.0
+git push origin main
+git tag v1.0.1
+git push origin v1.0.1
 ```
 
-Or run **Release** from the Actions tab — that also creates the release and uploads the APKs.
+5. Wait for the **Release** workflow. It creates **Notes 1.0.1** and attaches the APKs. GitHub fills notes from merged PRs.
+6. Open the release → **Edit** to write a real description (what changed, who should install universal vs arm64). Save.
+
+Tag must match `versionName` (`v` + name). Don’t tag an old commit.
 
 To sign CI builds with your key, add these repo secrets:
 

@@ -46,6 +46,13 @@ jobs:
           mkdir -p dist
           VERSION=$(sed -n 's/.*versionName = "\(.*\)"/\1/p' app/build.gradle.kts | head -1)
           echo "version=$VERSION" >> "$GITHUB_OUTPUT"
+          if echo "$VERSION" | grep -Eq -- '-(alpha|beta|rc)'; then
+            echo "prerelease=true" >> "$GITHUB_OUTPUT"
+            echo "make_latest=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "prerelease=false" >> "$GITHUB_OUTPUT"
+            echo "make_latest=true" >> "$GITHUB_OUTPUT"
+          fi
           for f in app/build/outputs/apk/release/*.apk; do
             base=$(basename "$f")
             abi=${base#app-}
@@ -66,4 +73,5 @@ jobs:
           name: Notes ${{ steps.meta.outputs.version }}
           files: dist/*.apk
           generate_release_notes: true
-          make_latest: true
+          prerelease: ${{ steps.meta.outputs.prerelease }}
+          make_latest: ${{ steps.meta.outputs.make_latest }}
