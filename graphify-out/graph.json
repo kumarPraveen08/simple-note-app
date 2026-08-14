@@ -14,12 +14,32 @@
       "norm_label": "build.gradle.kts"
     },
     {
+      "label": "secret()",
+      "file_type": "code",
+      "source_file": "app/build.gradle.kts",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "app_build_gradle_secret",
+      "community": 16,
+      "norm_label": "secret()"
+    },
+    {
+      "label": "String",
+      "file_type": "code",
+      "source_file": "app/build.gradle.kts",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "app_build_gradle_kts_string",
+      "community": 16,
+      "norm_label": "string"
+    },
+    {
       "label": "output-metadata.json",
       "file_type": "code",
       "source_file": "app/release/output-metadata.json",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "release_output_metadata",
+      "id": "users_mac_androidstudioprojects_myapplication_app_release_output_metadata_json",
       "community": 21,
       "norm_label": "output-metadata.json"
     },
@@ -129,7 +149,7 @@
       "source_file": "app/src/androidTest/java/com/example/myapplication/ExampleInstrumentedTest.kt",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "myapplication_exampleinstrumentedtest",
+      "id": "users_mac_androidstudioprojects_myapplication_app_src_androidtest_java_com_example_myapplication_exampleinstrumentedtest_kt",
       "community": 14,
       "norm_label": "exampleinstrumentedtest.kt"
     },
@@ -159,8 +179,8 @@
       "source_file": "app/src/main/java/com/example/myapplication/MainActivity.kt",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "myapplication_mainactivity",
-      "community": 22,
+      "id": "users_mac_androidstudioprojects_myapplication_app_src_main_java_com_example_myapplication_mainactivity_kt",
+      "community": 1,
       "norm_label": "mainactivity.kt"
     },
     {
@@ -170,7 +190,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "myapplication_mainactivity_mainactivity",
-      "community": 22,
+      "community": 1,
       "norm_label": "mainactivity"
     },
     {
@@ -180,7 +200,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "componentactivity",
-      "community": 22,
+      "community": 1,
       "norm_label": "componentactivity"
     },
     {
@@ -190,7 +210,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "myapplication_mainactivity_mainactivity_oncreate",
-      "community": 22,
+      "community": 1,
       "norm_label": ".oncreate()"
     },
     {
@@ -200,7 +220,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "bundle",
-      "community": 22,
+      "community": 1,
       "norm_label": "bundle"
     },
     {
@@ -209,7 +229,7 @@
       "source_file": "app/src/main/java/com/example/myapplication/NotesApplication.kt",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "myapplication_notesapplication",
+      "id": "users_mac_androidstudioprojects_myapplication_app_src_main_java_com_example_myapplication_notesapplication_kt",
       "community": 10,
       "norm_label": "notesapplication.kt"
     },
@@ -269,7 +289,7 @@
       "source_file": "app/src/main/java/com/example/myapplication/data/local/NoteDatabase.kt",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "local_notedatabase",
+      "id": "users_mac_androidstudioprojects_myapplication_app_src_main_java_com_example_myapplication_data_local_notedatabase_kt",
       "community": 5,
       "norm_label": "notedatabase.kt"
     },
@@ -399,7 +419,7 @@
       "source_file": "app/src/main/java/com/example/myapplication/data/local/dao/Daos.kt",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "dao_daos",
+      "id": "users_mac_androidstudioprojects_myapplication_app_src_main_java_com_example_myapplication_data_local_dao_daos_kt",
       "community": 2,
       "norm_label": "daos.kt"
     },
@@ -739,7 +759,7 @@
       "source_file": "app/src/main/java/com/example/myapplication/data/local/entity/Entities.kt",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "entity_entities",
+      "id": "users_mac_androidstudioprojects_myapplication_app_src_main_java_com_example_myapplication_data_local_entity_entities_kt",
       "community": 12,
       "norm_label": "entities.kt"
     },
@@ -789,7 +809,7 @@
       "source_file": "app/src/main/java/com/example/myapplication/data/model/Models.kt",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "model_models",
+      "id": "users_mac_androidstudioprojects_myapplication_app_src_main_java_com_example_myapplication_data_model_models_kt",
       "community": 11,
       "norm_label": "models.kt"
     },
@@ -859,7 +879,7 @@
       "source_file": "app/src/main/java/com/example/myapplication/data/repository/NotesRepository.kt",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "repository_notesrepository",
+      "id": "users_mac_androidstudioprojects_myapplication_app_src_main_java_com_example_myapplication_data_repository_notesrepository_kt",
       "community": 0,
       "norm_label": "notesrepository.kt"
     },
@@ -1259,7 +1279,7 @@
       "source_file": "app/src/main/java/com/example/myapplication/data/repository/SettingsRepository.kt",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "repository_settingsrepository",
+      "id": "users_mac_androidstudioprojects_myapplication_app_src_main_java_com_example_myapplication_data_repository_settingsrepository_kt",
       "community": 6,
       "norm_label": "settingsrepository.kt"
     },
@@ -1409,7 +1429,7 @@
       "source_file": "app/src/main/java/com/example/myapplication/data/util/Codecs.kt",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "util_codecs",
+      "id": "users_mac_androidstudioprojects_myapplication_app_src_main_java_com_example_myapplication_data_util_codecs_kt",
       "community": 9,
       "norm_label": "codecs.kt"
     },
@@ -1509,7 +1529,7 @@
       "source_file": "app/src/main/java/com/example/myapplication/ui/HomeViewModel.kt",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "ui_homeviewmodel",
+      "id": "users_mac_androidstudioprojects_myapplication_app_src_main_java_com_example_myapplication_ui_homeviewmodel_kt",
       "community": 4,
       "norm_label": "homeviewmodel.kt"
     },
@@ -1789,7 +1809,7 @@
       "source_file": "app/src/main/java/com/example/myapplication/ui/NotesApp.kt",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "ui_notesapp",
+      "id": "users_mac_androidstudioprojects_myapplication_app_src_main_java_com_example_myapplication_ui_notesapp_kt",
       "community": 1,
       "norm_label": "notesapp.kt"
     },
@@ -1809,7 +1829,7 @@
       "source_file": "app/src/main/java/com/example/myapplication/ui/components/ActionSheets.kt",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "components_actionsheets",
+      "id": "users_mac_androidstudioprojects_myapplication_app_src_main_java_com_example_myapplication_ui_components_actionsheets_kt",
       "community": 23,
       "norm_label": "actionsheets.kt"
     },
@@ -2019,7 +2039,7 @@
       "source_file": "app/src/main/java/com/example/myapplication/ui/components/Components.kt",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "components_components",
+      "id": "users_mac_androidstudioprojects_myapplication_app_src_main_java_com_example_myapplication_ui_components_components_kt",
       "community": 1,
       "norm_label": "components.kt"
     },
@@ -2149,7 +2169,7 @@
       "source_file": "app/src/main/java/com/example/myapplication/ui/editor/NoteEditorScreen.kt",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "editor_noteeditorscreen",
+      "id": "users_mac_androidstudioprojects_myapplication_app_src_main_java_com_example_myapplication_ui_editor_noteeditorscreen_kt",
       "community": 1,
       "norm_label": "noteeditorscreen.kt"
     },
@@ -2209,7 +2229,7 @@
       "source_file": "app/src/main/java/com/example/myapplication/ui/editor/NoteEditorViewModel.kt",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "editor_noteeditorviewmodel",
+      "id": "users_mac_androidstudioprojects_myapplication_app_src_main_java_com_example_myapplication_ui_editor_noteeditorviewmodel_kt",
       "community": 3,
       "norm_label": "noteeditorviewmodel.kt"
     },
@@ -2549,7 +2569,7 @@
       "source_file": "app/src/main/java/com/example/myapplication/ui/folders/FoldersScreen.kt",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "folders_foldersscreen",
+      "id": "users_mac_androidstudioprojects_myapplication_app_src_main_java_com_example_myapplication_ui_folders_foldersscreen_kt",
       "community": 1,
       "norm_label": "foldersscreen.kt"
     },
@@ -2669,7 +2689,7 @@
       "source_file": "app/src/main/java/com/example/myapplication/ui/navigation/Routes.kt",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "navigation_routes",
+      "id": "users_mac_androidstudioprojects_myapplication_app_src_main_java_com_example_myapplication_ui_navigation_routes_kt",
       "community": 13,
       "norm_label": "routes.kt"
     },
@@ -2709,7 +2729,7 @@
       "source_file": "app/src/main/java/com/example/myapplication/ui/settings/LookAndFeelScreen.kt",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "settings_lookandfeelscreen",
+      "id": "users_mac_androidstudioprojects_myapplication_app_src_main_java_com_example_myapplication_ui_settings_lookandfeelscreen_kt",
       "community": 23,
       "norm_label": "lookandfeelscreen.kt"
     },
@@ -2739,7 +2759,7 @@
       "source_file": "app/src/main/java/com/example/myapplication/ui/settings/ProfileScreen.kt",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "settings_profilescreen",
+      "id": "users_mac_androidstudioprojects_myapplication_app_src_main_java_com_example_myapplication_ui_settings_profilescreen_kt",
       "community": 1,
       "norm_label": "profilescreen.kt"
     },
@@ -2769,7 +2789,7 @@
       "source_file": "app/src/main/java/com/example/myapplication/ui/settings/SettingsScreen.kt",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "settings_settingsscreen",
+      "id": "users_mac_androidstudioprojects_myapplication_app_src_main_java_com_example_myapplication_ui_settings_settingsscreen_kt",
       "community": 1,
       "norm_label": "settingsscreen.kt"
     },
@@ -2799,7 +2819,7 @@
       "source_file": "app/src/main/java/com/example/myapplication/ui/settings/SettingsViewModel.kt",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "settings_settingsviewmodel",
+      "id": "users_mac_androidstudioprojects_myapplication_app_src_main_java_com_example_myapplication_ui_settings_settingsviewmodel_kt",
       "community": 7,
       "norm_label": "settingsviewmodel.kt"
     },
@@ -2959,7 +2979,7 @@
       "source_file": "app/src/main/java/com/example/myapplication/ui/theme/Color.kt",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "theme_color",
+      "id": "users_mac_androidstudioprojects_myapplication_app_src_main_java_com_example_myapplication_ui_theme_color_kt",
       "community": 19,
       "norm_label": "color.kt"
     },
@@ -2969,7 +2989,7 @@
       "source_file": "app/src/main/java/com/example/myapplication/ui/theme/ColorPalettes.kt",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "theme_colorpalettes",
+      "id": "users_mac_androidstudioprojects_myapplication_app_src_main_java_com_example_myapplication_ui_theme_colorpalettes_kt",
       "community": 24,
       "norm_label": "colorpalettes.kt"
     },
@@ -3047,7 +3067,7 @@
       "label": "NotesExpressiveTheme()",
       "file_type": "code",
       "source_file": "app/src/main/java/com/example/myapplication/ui/theme/Theme.kt",
-      "source_location": "L35",
+      "source_location": "L34",
       "_origin": "ast",
       "id": "theme_theme_notesexpressivetheme",
       "community": 1,
@@ -3057,7 +3077,7 @@
       "label": "ThemeMode",
       "file_type": "code",
       "source_file": "app/src/main/java/com/example/myapplication/ui/theme/Theme.kt",
-      "source_location": "L35",
+      "source_location": "L34",
       "_origin": "ast",
       "id": "app_src_main_java_com_example_myapplication_ui_theme_theme_kt_thememode",
       "community": 1,
@@ -3067,7 +3087,7 @@
       "label": "Boolean",
       "file_type": "code",
       "source_file": "app/src/main/java/com/example/myapplication/ui/theme/Theme.kt",
-      "source_location": "L35",
+      "source_location": "L34",
       "_origin": "ast",
       "id": "app_src_main_java_com_example_myapplication_ui_theme_theme_kt_boolean",
       "community": 1,
@@ -3077,7 +3097,7 @@
       "label": "AppThemeStyle",
       "file_type": "code",
       "source_file": "app/src/main/java/com/example/myapplication/ui/theme/Theme.kt",
-      "source_location": "L35",
+      "source_location": "L34",
       "_origin": "ast",
       "id": "app_src_main_java_com_example_myapplication_ui_theme_theme_kt_appthemestyle",
       "community": 1,
@@ -3089,7 +3109,7 @@
       "source_file": "app/src/main/java/com/example/myapplication/ui/theme/Type.kt",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "theme_type",
+      "id": "users_mac_androidstudioprojects_myapplication_app_src_main_java_com_example_myapplication_ui_theme_type_kt",
       "community": 20,
       "norm_label": "type.kt"
     },
@@ -3099,7 +3119,7 @@
       "source_file": "app/src/main/java/com/example/myapplication/ui/util/RichText.kt",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "util_richtext",
+      "id": "users_mac_androidstudioprojects_myapplication_app_src_main_java_com_example_myapplication_ui_util_richtext_kt",
       "community": 8,
       "norm_label": "richtext.kt"
     },
@@ -3199,7 +3219,7 @@
       "source_file": "app/src/test/java/com/example/myapplication/ExampleUnitTest.kt",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "myapplication_exampleunittest",
+      "id": "users_mac_androidstudioprojects_myapplication_app_src_test_java_com_example_myapplication_exampleunittest_kt",
       "community": 15,
       "norm_label": "exampleunittest.kt"
     },
@@ -3229,8 +3249,8 @@
       "source_file": "build.gradle.kts",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "build_gradle",
-      "community": 17,
+      "id": "users_mac_androidstudioprojects_myapplication_build_gradle_kts",
+      "community": 22,
       "norm_label": "build.gradle.kts"
     },
     {
@@ -3239,21 +3259,162 @@
       "source_file": "settings.gradle.kts",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "settings_gradle",
-      "community": 18,
+      "id": "users_mac_androidstudioprojects_myapplication_settings_gradle_kts",
+      "community": 25,
       "norm_label": "settings.gradle.kts"
+    },
+    {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "readme",
+      "community": 18,
+      "norm_label": "readme.md"
+    },
+    {
+      "label": "About",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L18",
+      "_origin": "ast",
+      "id": "readme_about",
+      "community": 18,
+      "norm_label": "about"
+    },
+    {
+      "label": "Screenshots",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L22",
+      "_origin": "ast",
+      "id": "readme_screenshots",
+      "community": 18,
+      "norm_label": "screenshots"
+    },
+    {
+      "label": "Features",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L31",
+      "_origin": "ast",
+      "id": "readme_features",
+      "community": 18,
+      "norm_label": "features"
+    },
+    {
+      "label": "BUILD.md",
+      "file_type": "document",
+      "source_file": "docs/BUILD.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_build",
+      "community": 17,
+      "norm_label": "build.md"
+    },
+    {
+      "label": "Build guide",
+      "file_type": "document",
+      "source_file": "docs/BUILD.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_build_build_guide",
+      "community": 17,
+      "norm_label": "build guide"
+    },
+    {
+      "label": "What you need",
+      "file_type": "document",
+      "source_file": "docs/BUILD.md",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "docs_build_what_you_need",
+      "community": 17,
+      "norm_label": "what you need"
+    },
+    {
+      "label": "Android Studio",
+      "file_type": "document",
+      "source_file": "docs/BUILD.md",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "docs_build_android_studio",
+      "community": 17,
+      "norm_label": "android studio"
+    },
+    {
+      "label": "Command line",
+      "file_type": "document",
+      "source_file": "docs/BUILD.md",
+      "source_location": "L18",
+      "_origin": "ast",
+      "id": "docs_build_command_line",
+      "community": 17,
+      "norm_label": "command line"
+    },
+    {
+      "label": "Release APKs",
+      "file_type": "document",
+      "source_file": "docs/BUILD.md",
+      "source_location": "L34",
+      "_origin": "ast",
+      "id": "docs_build_release_apks",
+      "community": 17,
+      "norm_label": "release apks"
+    },
+    {
+      "label": "Sign with your own key (optional, recommended)",
+      "file_type": "document",
+      "source_file": "docs/BUILD.md",
+      "source_location": "L51",
+      "_origin": "ast",
+      "id": "docs_build_sign_with_your_own_key_optional_recommended",
+      "community": 17,
+      "norm_label": "sign with your own key (optional, recommended)"
+    },
+    {
+      "label": "GitHub Releases",
+      "file_type": "document",
+      "source_file": "docs/BUILD.md",
+      "source_location": "L70",
+      "_origin": "ast",
+      "id": "docs_build_github_releases",
+      "community": 17,
+      "norm_label": "github releases"
     }
   ],
   "links": [
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "app/build.gradle.kts",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "app_build_gradle",
+      "target": "app_build_gradle_secret",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "app/build.gradle.kts",
+      "source_location": "L15",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "app_build_gradle_secret",
+      "target": "app_build_gradle_kts_string",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "app/release/output-metadata.json",
       "source_location": "L7",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "release_output_metadata",
-      "target": "release_output_metadata_applicationid"
+      "source": "users_mac_androidstudioprojects_myapplication_app_release_output_metadata_json",
+      "target": "release_output_metadata_applicationid",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -3261,9 +3422,9 @@
       "source_file": "app/release/output-metadata.json",
       "source_location": "L3",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "release_output_metadata",
-      "target": "release_output_metadata_artifacttype"
+      "source": "users_mac_androidstudioprojects_myapplication_app_release_output_metadata_json",
+      "target": "release_output_metadata_artifacttype",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -3271,9 +3432,9 @@
       "source_file": "app/release/output-metadata.json",
       "source_location": "L20",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "release_output_metadata",
-      "target": "release_output_metadata_baselineprofiles"
+      "source": "users_mac_androidstudioprojects_myapplication_app_release_output_metadata_json",
+      "target": "release_output_metadata_baselineprofiles",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -3281,9 +3442,9 @@
       "source_file": "app/release/output-metadata.json",
       "source_location": "L9",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "release_output_metadata",
-      "target": "release_output_metadata_elements"
+      "source": "users_mac_androidstudioprojects_myapplication_app_release_output_metadata_json",
+      "target": "release_output_metadata_elements",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -3291,9 +3452,9 @@
       "source_file": "app/release/output-metadata.json",
       "source_location": "L19",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "release_output_metadata",
-      "target": "release_output_metadata_elementtype"
+      "source": "users_mac_androidstudioprojects_myapplication_app_release_output_metadata_json",
+      "target": "release_output_metadata_elementtype",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -3301,9 +3462,9 @@
       "source_file": "app/release/output-metadata.json",
       "source_location": "L36",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "release_output_metadata",
-      "target": "release_output_metadata_minsdkversionfordexing"
+      "source": "users_mac_androidstudioprojects_myapplication_app_release_output_metadata_json",
+      "target": "release_output_metadata_minsdkversionfordexing",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -3311,9 +3472,9 @@
       "source_file": "app/release/output-metadata.json",
       "source_location": "L8",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "release_output_metadata",
-      "target": "release_output_metadata_variantname"
+      "source": "users_mac_androidstudioprojects_myapplication_app_release_output_metadata_json",
+      "target": "release_output_metadata_variantname",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -3321,9 +3482,9 @@
       "source_file": "app/release/output-metadata.json",
       "source_location": "L2",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "release_output_metadata",
-      "target": "release_output_metadata_version"
+      "source": "users_mac_androidstudioprojects_myapplication_app_release_output_metadata_json",
+      "target": "release_output_metadata_version",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -3351,9 +3512,9 @@
       "source_file": "app/src/androidTest/java/com/example/myapplication/ExampleInstrumentedTest.kt",
       "source_location": "L16",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "myapplication_exampleinstrumentedtest",
-      "target": "myapplication_exampleinstrumentedtest_exampleinstrumentedtest"
+      "source": "users_mac_androidstudioprojects_myapplication_app_src_androidtest_java_com_example_myapplication_exampleinstrumentedtest_kt",
+      "target": "myapplication_exampleinstrumentedtest_exampleinstrumentedtest",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -3371,9 +3532,9 @@
       "source_file": "app/src/main/java/com/example/myapplication/MainActivity.kt",
       "source_location": "L9",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "myapplication_mainactivity",
-      "target": "myapplication_mainactivity_mainactivity"
+      "source": "users_mac_androidstudioprojects_myapplication_app_src_main_java_com_example_myapplication_mainactivity_kt",
+      "target": "myapplication_mainactivity_mainactivity",
+      "confidence_score": 1.0
     },
     {
       "relation": "inherits",
@@ -3423,9 +3584,9 @@
       "source_file": "app/src/main/java/com/example/myapplication/NotesApplication.kt",
       "source_location": "L7",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "myapplication_notesapplication",
-      "target": "myapplication_notesapplication_notesapplication"
+      "source": "users_mac_androidstudioprojects_myapplication_app_src_main_java_com_example_myapplication_notesapplication_kt",
+      "target": "myapplication_notesapplication_notesapplication",
+      "confidence_score": 1.0
     },
     {
       "relation": "inherits",
@@ -3497,9 +3658,9 @@
       "source_file": "app/src/main/java/com/example/myapplication/data/local/NoteDatabase.kt",
       "source_location": "L36",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "local_notedatabase",
-      "target": "local_notedatabase_get"
+      "source": "users_mac_androidstudioprojects_myapplication_app_src_main_java_com_example_myapplication_data_local_notedatabase_kt",
+      "target": "local_notedatabase_get",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -3507,9 +3668,9 @@
       "source_file": "app/src/main/java/com/example/myapplication/data/local/NoteDatabase.kt",
       "source_location": "L16",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "local_notedatabase",
-      "target": "local_notedatabase_notedatabase"
+      "source": "users_mac_androidstudioprojects_myapplication_app_src_main_java_com_example_myapplication_data_local_notedatabase_kt",
+      "target": "local_notedatabase_notedatabase",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -3633,9 +3794,9 @@
       "source_file": "app/src/main/java/com/example/myapplication/data/local/dao/Daos.kt",
       "source_location": "L94",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "dao_daos",
-      "target": "dao_daos_attachmentdao"
+      "source": "users_mac_androidstudioprojects_myapplication_app_src_main_java_com_example_myapplication_data_local_dao_daos_kt",
+      "target": "dao_daos_attachmentdao",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -3643,9 +3804,9 @@
       "source_file": "app/src/main/java/com/example/myapplication/data/local/dao/Daos.kt",
       "source_location": "L15",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "dao_daos",
-      "target": "dao_daos_folderdao"
+      "source": "users_mac_androidstudioprojects_myapplication_app_src_main_java_com_example_myapplication_data_local_dao_daos_kt",
+      "target": "dao_daos_folderdao",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -3653,9 +3814,9 @@
       "source_file": "app/src/main/java/com/example/myapplication/data/local/dao/Daos.kt",
       "source_location": "L33",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "dao_daos",
-      "target": "dao_daos_notedao"
+      "source": "users_mac_androidstudioprojects_myapplication_app_src_main_java_com_example_myapplication_data_local_dao_daos_kt",
+      "target": "dao_daos_notedao",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -3663,9 +3824,9 @@
       "source_file": "app/src/main/java/com/example/myapplication/data/local/dao/Daos.kt",
       "source_location": "L79",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "dao_daos",
-      "target": "dao_daos_noteversiondao"
+      "source": "users_mac_androidstudioprojects_myapplication_app_src_main_java_com_example_myapplication_data_local_dao_daos_kt",
+      "target": "dao_daos_noteversiondao",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -4388,9 +4549,9 @@
       "source_file": "app/src/main/java/com/example/myapplication/data/local/entity/Entities.kt",
       "source_location": "L66",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "entity_entities",
-      "target": "entity_entities_attachmententity"
+      "source": "users_mac_androidstudioprojects_myapplication_app_src_main_java_com_example_myapplication_data_local_entity_entities_kt",
+      "target": "entity_entities_attachmententity",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4398,9 +4559,9 @@
       "source_file": "app/src/main/java/com/example/myapplication/data/local/entity/Entities.kt",
       "source_location": "L8",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "entity_entities",
-      "target": "entity_entities_folderentity"
+      "source": "users_mac_androidstudioprojects_myapplication_app_src_main_java_com_example_myapplication_data_local_entity_entities_kt",
+      "target": "entity_entities_folderentity",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4408,9 +4569,9 @@
       "source_file": "app/src/main/java/com/example/myapplication/data/local/entity/Entities.kt",
       "source_location": "L15",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "entity_entities",
-      "target": "entity_entities_noteentity"
+      "source": "users_mac_androidstudioprojects_myapplication_app_src_main_java_com_example_myapplication_data_local_entity_entities_kt",
+      "target": "entity_entities_noteentity",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4418,9 +4579,9 @@
       "source_file": "app/src/main/java/com/example/myapplication/data/local/entity/Entities.kt",
       "source_location": "L45",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "entity_entities",
-      "target": "entity_entities_noteversionentity"
+      "source": "users_mac_androidstudioprojects_myapplication_app_src_main_java_com_example_myapplication_data_local_entity_entities_kt",
+      "target": "entity_entities_noteversionentity",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4428,39 +4589,39 @@
       "source_file": "app/src/main/java/com/example/myapplication/data/model/Models.kt",
       "source_location": "L16",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "model_models",
-      "target": "model_models_appthemestyle"
+      "source": "users_mac_androidstudioprojects_myapplication_app_src_main_java_com_example_myapplication_data_model_models_kt",
+      "target": "model_models_appthemestyle",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "app/src/main/java/com/example/myapplication/data/model/Models.kt",
-      "source_location": "L24",
+      "source_location": "L35",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "model_models",
-      "target": "model_models_checklistitem"
+      "source": "users_mac_androidstudioprojects_myapplication_app_src_main_java_com_example_myapplication_data_model_models_kt",
+      "target": "model_models_checklistitem",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "app/src/main/java/com/example/myapplication/data/model/Models.kt",
-      "source_location": "L30",
+      "source_location": "L41",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "model_models",
-      "target": "model_models_notecolors"
+      "source": "users_mac_androidstudioprojects_myapplication_app_src_main_java_com_example_myapplication_data_model_models_kt",
+      "target": "model_models_notecolors",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "app/src/main/java/com/example/myapplication/data/model/Models.kt",
-      "source_location": "L16",
+      "source_location": "L27",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "model_models",
-      "target": "model_models_notefilter"
+      "source": "users_mac_androidstudioprojects_myapplication_app_src_main_java_com_example_myapplication_data_model_models_kt",
+      "target": "model_models_notefilter",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4468,9 +4629,9 @@
       "source_file": "app/src/main/java/com/example/myapplication/data/model/Models.kt",
       "source_location": "L3",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "model_models",
-      "target": "model_models_notesort"
+      "source": "users_mac_androidstudioprojects_myapplication_app_src_main_java_com_example_myapplication_data_model_models_kt",
+      "target": "model_models_notesort",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4478,9 +4639,9 @@
       "source_file": "app/src/main/java/com/example/myapplication/data/model/Models.kt",
       "source_location": "L10",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "model_models",
-      "target": "model_models_thememode"
+      "source": "users_mac_androidstudioprojects_myapplication_app_src_main_java_com_example_myapplication_data_model_models_kt",
+      "target": "model_models_thememode",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4488,9 +4649,9 @@
       "source_file": "app/src/main/java/com/example/myapplication/data/repository/NotesRepository.kt",
       "source_location": "L16",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "repository_notesrepository",
-      "target": "repository_notesrepository_notesrepository"
+      "source": "users_mac_androidstudioprojects_myapplication_app_src_main_java_com_example_myapplication_data_repository_notesrepository_kt",
+      "target": "repository_notesrepository_notesrepository",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -5493,31 +5654,31 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "app/src/main/java/com/example/myapplication/data/repository/SettingsRepository.kt",
-      "source_location": "L25",
+      "source_location": "L29",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "repository_settingsrepository",
-      "target": "repository_settingsrepository_keys"
+      "source": "users_mac_androidstudioprojects_myapplication_app_src_main_java_com_example_myapplication_data_repository_settingsrepository_kt",
+      "target": "repository_settingsrepository_keys",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "app/src/main/java/com/example/myapplication/data/repository/SettingsRepository.kt",
-      "source_location": "L24",
+      "source_location": "L28",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "repository_settingsrepository",
-      "target": "repository_settingsrepository_settingsrepository"
+      "source": "users_mac_androidstudioprojects_myapplication_app_src_main_java_com_example_myapplication_data_repository_settingsrepository_kt",
+      "target": "repository_settingsrepository_settingsrepository",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "app/src/main/java/com/example/myapplication/data/repository/SettingsRepository.kt",
-      "source_location": "L16",
+      "source_location": "L18",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "repository_settingsrepository",
-      "target": "repository_settingsrepository_usersettings"
+      "source": "users_mac_androidstudioprojects_myapplication_app_src_main_java_com_example_myapplication_data_repository_settingsrepository_kt",
+      "target": "repository_settingsrepository_usersettings",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -5652,9 +5813,9 @@
       "source_file": "app/src/main/java/com/example/myapplication/data/util/Codecs.kt",
       "source_location": "L6",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "util_codecs",
-      "target": "util_codecs_checklistcodec"
+      "source": "users_mac_androidstudioprojects_myapplication_app_src_main_java_com_example_myapplication_data_util_codecs_kt",
+      "target": "util_codecs_checklistcodec",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -5662,9 +5823,9 @@
       "source_file": "app/src/main/java/com/example/myapplication/data/util/Codecs.kt",
       "source_location": "L29",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "util_codecs",
-      "target": "util_codecs_tagcodec"
+      "source": "users_mac_androidstudioprojects_myapplication_app_src_main_java_com_example_myapplication_data_util_codecs_kt",
+      "target": "util_codecs_tagcodec",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -5822,9 +5983,9 @@
       "source_file": "app/src/main/java/com/example/myapplication/ui/HomeViewModel.kt",
       "source_location": "L139",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "ui_homeviewmodel",
-      "target": "ui_homeviewmodel_factory"
+      "source": "users_mac_androidstudioprojects_myapplication_app_src_main_java_com_example_myapplication_ui_homeviewmodel_kt",
+      "target": "ui_homeviewmodel_factory",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -5832,9 +5993,9 @@
       "source_file": "app/src/main/java/com/example/myapplication/ui/HomeViewModel.kt",
       "source_location": "L24",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "ui_homeviewmodel",
-      "target": "ui_homeviewmodel_homeuistate"
+      "source": "users_mac_androidstudioprojects_myapplication_app_src_main_java_com_example_myapplication_ui_homeviewmodel_kt",
+      "target": "ui_homeviewmodel_homeuistate",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -5842,9 +6003,9 @@
       "source_file": "app/src/main/java/com/example/myapplication/ui/HomeViewModel.kt",
       "source_location": "L34",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "ui_homeviewmodel",
-      "target": "ui_homeviewmodel_homeviewmodel"
+      "source": "users_mac_androidstudioprojects_myapplication_app_src_main_java_com_example_myapplication_ui_homeviewmodel_kt",
+      "target": "ui_homeviewmodel_homeviewmodel",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -6229,11 +6390,11 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "app/src/main/java/com/example/myapplication/ui/NotesApp.kt",
-      "source_location": "L22",
+      "source_location": "L25",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "ui_notesapp",
-      "target": "ui_notesapp_notesapp"
+      "source": "users_mac_androidstudioprojects_myapplication_app_src_main_java_com_example_myapplication_ui_notesapp_kt",
+      "target": "ui_notesapp_notesapp",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -6327,51 +6488,51 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "app/src/main/java/com/example/myapplication/ui/components/ActionSheets.kt",
-      "source_location": "L380",
+      "source_location": "L382",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "components_actionsheets",
-      "target": "components_actionsheets_actionsheetcontent"
+      "source": "users_mac_androidstudioprojects_myapplication_app_src_main_java_com_example_myapplication_ui_components_actionsheets_kt",
+      "target": "components_actionsheets_actionsheetcontent",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "app/src/main/java/com/example/myapplication/ui/components/ActionSheets.kt",
-      "source_location": "L270",
+      "source_location": "L272",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "components_actionsheets",
-      "target": "components_actionsheets_actionsheetheader"
+      "source": "users_mac_androidstudioprojects_myapplication_app_src_main_java_com_example_myapplication_ui_components_actionsheets_kt",
+      "target": "components_actionsheets_actionsheetheader",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "app/src/main/java/com/example/myapplication/ui/components/ActionSheets.kt",
-      "source_location": "L349",
+      "source_location": "L351",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "components_actionsheets",
-      "target": "components_actionsheets_actionsheetlistitem"
+      "source": "users_mac_androidstudioprojects_myapplication_app_src_main_java_com_example_myapplication_ui_components_actionsheets_kt",
+      "target": "components_actionsheets_actionsheetlistitem",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "app/src/main/java/com/example/myapplication/ui/components/ActionSheets.kt",
-      "source_location": "L311",
+      "source_location": "L313",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "components_actionsheets",
-      "target": "components_actionsheets_actionsheetquickrow"
+      "source": "users_mac_androidstudioprojects_myapplication_app_src_main_java_com_example_myapplication_ui_components_actionsheets_kt",
+      "target": "components_actionsheets_actionsheetquickrow",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "app/src/main/java/com/example/myapplication/ui/components/ActionSheets.kt",
-      "source_location": "L222",
+      "source_location": "L224",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "components_actionsheets",
-      "target": "components_actionsheets_paletteswatch"
+      "source": "users_mac_androidstudioprojects_myapplication_app_src_main_java_com_example_myapplication_ui_components_actionsheets_kt",
+      "target": "components_actionsheets_paletteswatch",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -6379,9 +6540,9 @@
       "source_file": "app/src/main/java/com/example/myapplication/ui/components/ActionSheets.kt",
       "source_location": "L47",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "components_actionsheets",
-      "target": "components_actionsheets_settingsnavitem"
+      "source": "users_mac_androidstudioprojects_myapplication_app_src_main_java_com_example_myapplication_ui_components_actionsheets_kt",
+      "target": "components_actionsheets_settingsnavitem",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -6389,39 +6550,39 @@
       "source_file": "app/src/main/java/com/example/myapplication/ui/components/ActionSheets.kt",
       "source_location": "L80",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "components_actionsheets",
-      "target": "components_actionsheets_settingsswitchitem"
+      "source": "users_mac_androidstudioprojects_myapplication_app_src_main_java_com_example_myapplication_ui_components_actionsheets_kt",
+      "target": "components_actionsheets_settingsswitchitem",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "app/src/main/java/com/example/myapplication/ui/components/ActionSheets.kt",
-      "source_location": "L263",
+      "source_location": "L265",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "components_actionsheets",
-      "target": "components_actionsheets_sheetlistaction"
+      "source": "users_mac_androidstudioprojects_myapplication_app_src_main_java_com_example_myapplication_ui_components_actionsheets_kt",
+      "target": "components_actionsheets_sheetlistaction",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "app/src/main/java/com/example/myapplication/ui/components/ActionSheets.kt",
-      "source_location": "L257",
+      "source_location": "L259",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "components_actionsheets",
-      "target": "components_actionsheets_sheetquickaction"
+      "source": "users_mac_androidstudioprojects_myapplication_app_src_main_java_com_example_myapplication_ui_components_actionsheets_kt",
+      "target": "components_actionsheets_sheetquickaction",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "app/src/main/java/com/example/myapplication/ui/components/ActionSheets.kt",
-      "source_location": "L189",
+      "source_location": "L191",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "components_actionsheets",
-      "target": "components_actionsheets_themepalettepicker"
+      "source": "users_mac_androidstudioprojects_myapplication_app_src_main_java_com_example_myapplication_ui_components_actionsheets_kt",
+      "target": "components_actionsheets_themepalettepicker",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -6429,9 +6590,9 @@
       "source_file": "app/src/main/java/com/example/myapplication/ui/components/ActionSheets.kt",
       "source_location": "L124",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "components_actionsheets",
-      "target": "components_actionsheets_themepreviewcard"
+      "source": "users_mac_androidstudioprojects_myapplication_app_src_main_java_com_example_myapplication_ui_components_actionsheets_kt",
+      "target": "components_actionsheets_themepreviewcard",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -6877,21 +7038,21 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "app/src/main/java/com/example/myapplication/ui/components/Components.kt",
-      "source_location": "L110",
+      "source_location": "L167",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "components_components",
-      "target": "components_components_colorswatch"
+      "source": "users_mac_androidstudioprojects_myapplication_app_src_main_java_com_example_myapplication_ui_components_components_kt",
+      "target": "components_components_colorswatch",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "app/src/main/java/com/example/myapplication/ui/components/Components.kt",
-      "source_location": "L152",
+      "source_location": "L209",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "components_components",
-      "target": "components_components_emptystate"
+      "source": "users_mac_androidstudioprojects_myapplication_app_src_main_java_com_example_myapplication_ui_components_components_kt",
+      "target": "components_components_emptystate",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -6899,29 +7060,29 @@
       "source_file": "app/src/main/java/com/example/myapplication/ui/components/Components.kt",
       "source_location": "L127",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "components_components",
-      "target": "components_components_foldercard"
+      "source": "users_mac_androidstudioprojects_myapplication_app_src_main_java_com_example_myapplication_ui_components_components_kt",
+      "target": "components_components_foldercard",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "app/src/main/java/com/example/myapplication/ui/components/Components.kt",
-      "source_location": "L41",
+      "source_location": "L46",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "components_components",
-      "target": "components_components_notecard"
+      "source": "users_mac_androidstudioprojects_myapplication_app_src_main_java_com_example_myapplication_ui_components_components_kt",
+      "target": "components_components_notecard",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "app/src/main/java/com/example/myapplication/ui/components/Components.kt",
-      "source_location": "L142",
+      "source_location": "L199",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "components_components",
-      "target": "components_components_sectionlabel"
+      "source": "users_mac_androidstudioprojects_myapplication_app_src_main_java_com_example_myapplication_ui_components_components_kt",
+      "target": "components_components_sectionlabel",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -7147,31 +7308,31 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "app/src/main/java/com/example/myapplication/ui/editor/NoteEditorScreen.kt",
-      "source_location": "L528",
+      "source_location": "L549",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "editor_noteeditorscreen",
-      "target": "editor_noteeditorscreen_boxmenu"
+      "source": "users_mac_androidstudioprojects_myapplication_app_src_main_java_com_example_myapplication_ui_editor_noteeditorscreen_kt",
+      "target": "editor_noteeditorscreen_boxmenu",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "app/src/main/java/com/example/myapplication/ui/editor/NoteEditorScreen.kt",
-      "source_location": "L498",
+      "source_location": "L519",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "editor_noteeditorscreen",
-      "target": "editor_noteeditorscreen_formattoolbar"
+      "source": "users_mac_androidstudioprojects_myapplication_app_src_main_java_com_example_myapplication_ui_editor_noteeditorscreen_kt",
+      "target": "editor_noteeditorscreen_formattoolbar",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "app/src/main/java/com/example/myapplication/ui/editor/NoteEditorScreen.kt",
-      "source_location": "L78",
+      "source_location": "L81",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "editor_noteeditorscreen",
-      "target": "editor_noteeditorscreen_noteeditorscreen"
+      "source": "users_mac_androidstudioprojects_myapplication_app_src_main_java_com_example_myapplication_ui_editor_noteeditorscreen_kt",
+      "target": "editor_noteeditorscreen_noteeditorscreen",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -7223,9 +7384,9 @@
       "source_file": "app/src/main/java/com/example/myapplication/ui/editor/NoteEditorViewModel.kt",
       "source_location": "L251",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "editor_noteeditorviewmodel",
-      "target": "editor_noteeditorviewmodel_draft"
+      "source": "users_mac_androidstudioprojects_myapplication_app_src_main_java_com_example_myapplication_ui_editor_noteeditorviewmodel_kt",
+      "target": "editor_noteeditorviewmodel_draft",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7233,9 +7394,9 @@
       "source_file": "app/src/main/java/com/example/myapplication/ui/editor/NoteEditorViewModel.kt",
       "source_location": "L31",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "editor_noteeditorviewmodel",
-      "target": "editor_noteeditorviewmodel_editoruistate"
+      "source": "users_mac_androidstudioprojects_myapplication_app_src_main_java_com_example_myapplication_ui_editor_noteeditorviewmodel_kt",
+      "target": "editor_noteeditorviewmodel_editoruistate",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7243,9 +7404,9 @@
       "source_file": "app/src/main/java/com/example/myapplication/ui/editor/NoteEditorViewModel.kt",
       "source_location": "L242",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "editor_noteeditorviewmodel",
-      "target": "editor_noteeditorviewmodel_factory"
+      "source": "users_mac_androidstudioprojects_myapplication_app_src_main_java_com_example_myapplication_ui_editor_noteeditorviewmodel_kt",
+      "target": "editor_noteeditorviewmodel_factory",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7253,9 +7414,9 @@
       "source_file": "app/src/main/java/com/example/myapplication/ui/editor/NoteEditorViewModel.kt",
       "source_location": "L259",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "editor_noteeditorviewmodel",
-      "target": "editor_noteeditorviewmodel_meta"
+      "source": "users_mac_androidstudioprojects_myapplication_app_src_main_java_com_example_myapplication_ui_editor_noteeditorviewmodel_kt",
+      "target": "editor_noteeditorviewmodel_meta",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7263,9 +7424,9 @@
       "source_file": "app/src/main/java/com/example/myapplication/ui/editor/NoteEditorViewModel.kt",
       "source_location": "L46",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "editor_noteeditorviewmodel",
-      "target": "editor_noteeditorviewmodel_noteeditorviewmodel"
+      "source": "users_mac_androidstudioprojects_myapplication_app_src_main_java_com_example_myapplication_ui_editor_noteeditorviewmodel_kt",
+      "target": "editor_noteeditorviewmodel_noteeditorviewmodel",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -7892,9 +8053,9 @@
       "source_file": "app/src/main/java/com/example/myapplication/ui/folders/FoldersScreen.kt",
       "source_location": "L37",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "folders_foldersscreen",
-      "target": "folders_foldersscreen_foldersscreen"
+      "source": "users_mac_androidstudioprojects_myapplication_app_src_main_java_com_example_myapplication_ui_folders_foldersscreen_kt",
+      "target": "folders_foldersscreen_foldersscreen",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -8030,9 +8191,9 @@
       "source_file": "app/src/main/java/com/example/myapplication/ui/navigation/Routes.kt",
       "source_location": "L3",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "navigation_routes",
-      "target": "navigation_routes_routes"
+      "source": "users_mac_androidstudioprojects_myapplication_app_src_main_java_com_example_myapplication_ui_navigation_routes_kt",
+      "target": "navigation_routes_routes",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -8061,9 +8222,9 @@
       "source_file": "app/src/main/java/com/example/myapplication/ui/settings/LookAndFeelScreen.kt",
       "source_location": "L38",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "settings_lookandfeelscreen",
-      "target": "settings_lookandfeelscreen_lookandfeelscreen"
+      "source": "users_mac_androidstudioprojects_myapplication_app_src_main_java_com_example_myapplication_ui_settings_lookandfeelscreen_kt",
+      "target": "settings_lookandfeelscreen_lookandfeelscreen",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -8082,9 +8243,9 @@
       "source_file": "app/src/main/java/com/example/myapplication/ui/settings/ProfileScreen.kt",
       "source_location": "L34",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "settings_profilescreen",
-      "target": "settings_profilescreen_profilescreen"
+      "source": "users_mac_androidstudioprojects_myapplication_app_src_main_java_com_example_myapplication_ui_settings_profilescreen_kt",
+      "target": "settings_profilescreen_profilescreen",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -8101,11 +8262,11 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "app/src/main/java/com/example/myapplication/ui/settings/SettingsScreen.kt",
-      "source_location": "L38",
+      "source_location": "L36",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "settings_settingsscreen",
-      "target": "settings_settingsscreen_settingsscreen"
+      "source": "users_mac_androidstudioprojects_myapplication_app_src_main_java_com_example_myapplication_ui_settings_settingsscreen_kt",
+      "target": "settings_settingsscreen_settingsscreen",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -8122,21 +8283,21 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "app/src/main/java/com/example/myapplication/ui/settings/SettingsViewModel.kt",
-      "source_location": "L34",
+      "source_location": "L48",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "settings_settingsviewmodel",
-      "target": "settings_settingsviewmodel_factory"
+      "source": "users_mac_androidstudioprojects_myapplication_app_src_main_java_com_example_myapplication_ui_settings_settingsviewmodel_kt",
+      "target": "settings_settingsviewmodel_factory",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "app/src/main/java/com/example/myapplication/ui/settings/SettingsViewModel.kt",
-      "source_location": "L16",
+      "source_location": "L18",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "settings_settingsviewmodel",
-      "target": "settings_settingsviewmodel_settingsviewmodel"
+      "source": "users_mac_androidstudioprojects_myapplication_app_src_main_java_com_example_myapplication_ui_settings_settingsviewmodel_kt",
+      "target": "settings_settingsviewmodel_settingsviewmodel",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -8282,19 +8443,19 @@
       "source_file": "app/src/main/java/com/example/myapplication/ui/theme/ColorPalettes.kt",
       "source_location": "L16",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "theme_colorpalettes",
-      "target": "theme_colorpalettes_appthemepalette"
+      "source": "users_mac_androidstudioprojects_myapplication_app_src_main_java_com_example_myapplication_ui_theme_colorpalettes_kt",
+      "target": "theme_colorpalettes_appthemepalette",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "app/src/main/java/com/example/myapplication/ui/theme/ColorPalettes.kt",
-      "source_location": "L224",
+      "source_location": "L568",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "theme_colorpalettes",
-      "target": "theme_colorpalettes_palette"
+      "source": "users_mac_androidstudioprojects_myapplication_app_src_main_java_com_example_myapplication_ui_theme_colorpalettes_kt",
+      "target": "theme_colorpalettes_palette",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -8302,7 +8463,7 @@
       "source_file": "app/src/main/java/com/example/myapplication/ui/theme/ColorPalettes.kt",
       "source_location": "L23",
       "weight": 1.0,
-      "source": "theme_colorpalettes",
+      "source": "users_mac_androidstudioprojects_myapplication_app_src_main_java_com_example_myapplication_ui_theme_colorpalettes_kt",
       "target": "theme_colorpalettes_surfaces",
       "confidence_score": 1.0
     },
@@ -8312,9 +8473,9 @@
       "source_file": "app/src/main/java/com/example/myapplication/ui/theme/ColorPalettes.kt",
       "source_location": "L9",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "theme_colorpalettes",
-      "target": "theme_colorpalettes_themepalettepreview"
+      "source": "users_mac_androidstudioprojects_myapplication_app_src_main_java_com_example_myapplication_ui_theme_colorpalettes_kt",
+      "target": "theme_colorpalettes_themepalettepreview",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -8345,9 +8506,9 @@
       "source_location": "L43",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "theme_colorpalettes_palette",
-      "target": "theme_colorpalettes_surfaces",
-      "confidence_score": 1.0
+      "target": "theme_colorpalettes_surfaces"
     },
     {
       "relation": "references",
@@ -8420,9 +8581,9 @@
       "source_file": "app/src/main/java/com/example/myapplication/ui/util/RichText.kt",
       "source_location": "L12",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "util_richtext",
-      "target": "util_richtext_richtext"
+      "source": "users_mac_androidstudioprojects_myapplication_app_src_main_java_com_example_myapplication_ui_util_richtext_kt",
+      "target": "util_richtext_richtext",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -8430,9 +8591,9 @@
       "source_file": "app/src/main/java/com/example/myapplication/ui/util/RichText.kt",
       "source_location": "L78",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "util_richtext",
-      "target": "util_richtext_tocomposecolorornull"
+      "source": "users_mac_androidstudioprojects_myapplication_app_src_main_java_com_example_myapplication_ui_util_richtext_kt",
+      "target": "util_richtext_tocomposecolorornull",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -8547,9 +8708,9 @@
       "source_file": "app/src/test/java/com/example/myapplication/ExampleUnitTest.kt",
       "source_location": "L12",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "myapplication_exampleunittest",
-      "target": "myapplication_exampleunittest_exampleunittest"
+      "source": "users_mac_androidstudioprojects_myapplication_app_src_test_java_com_example_myapplication_exampleunittest_kt",
+      "target": "myapplication_exampleunittest_exampleunittest",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -8560,7 +8721,108 @@
       "confidence_score": 1.0,
       "source": "myapplication_exampleunittest_exampleunittest",
       "target": "myapplication_exampleunittest_exampleunittest_addition_iscorrect"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "readme",
+      "target": "readme_about",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "readme",
+      "target": "readme_features",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "readme",
+      "target": "readme_screenshots",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/BUILD.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "docs_build",
+      "target": "docs_build_build_guide",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/BUILD.md",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "docs_build_build_guide",
+      "target": "docs_build_android_studio",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/BUILD.md",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "docs_build_build_guide",
+      "target": "docs_build_command_line",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/BUILD.md",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "docs_build_build_guide",
+      "target": "docs_build_release_apks",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/BUILD.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "docs_build_build_guide",
+      "target": "docs_build_what_you_need",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/BUILD.md",
+      "source_location": "L70",
+      "weight": 1.0,
+      "source": "docs_build_release_apks",
+      "target": "docs_build_github_releases",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/BUILD.md",
+      "source_location": "L51",
+      "weight": 1.0,
+      "source": "docs_build_release_apks",
+      "target": "docs_build_sign_with_your_own_key_optional_recommended",
+      "confidence_score": 1.0
     }
   ],
-  "hyperedges": []
+  "hyperedges": [],
+  "built_at_commit": "376143d85df428066a68eda489191a4510f1158b"
 }

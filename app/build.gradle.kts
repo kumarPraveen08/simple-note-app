@@ -1,8 +1,20 @@
+import java.io.File
+import java.util.Properties
+
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.compose)
     alias(libs.plugins.ksp)
 }
+
+val keystoreProperties = Properties().apply {
+    val file = rootProject.file("keystore.properties")
+    if (file.exists()) file.inputStream().use(::load)
+}
+
+fun secret(env: String, prop: String): String? =
+    System.getenv(env)?.takeIf { it.isNotBlank() }
+        ?: keystoreProperties.getProperty(prop)?.takeIf { it.isNotBlank() }
 
 android {
     namespace = "com.example.myapplication"
@@ -20,6 +32,24 @@ android {
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 
+    signingConfigs {
+        val storePath = secret("KEYSTORE_FILE", "storeFile")
+        val storePassword = secret("KEYSTORE_PASSWORD", "storePassword")
+        val keyAlias = secret("KEY_ALIAS", "keyAlias")
+        val keyPassword = secret("KEY_PASSWORD", "keyPassword")
+        if (storePath != null && storePassword != null && keyAlias != null && keyPassword != null) {
+            val store = File(storePath).let { if (it.isAbsolute) it else rootProject.file(storePath) }
+            if (store.isFile) {
+                create("release") {
+                    this.storeFile = store
+                    this.storePassword = storePassword
+                    this.keyAlias = keyAlias
+                    this.keyPassword = keyPassword
+                }
+            }
+        }
+    }
+
     buildTypes {
         release {
             isMinifyEnabled = false
@@ -27,6 +57,17 @@ android {
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
             )
+            signingConfig = signingConfigs.findByName("release")
+                ?: signingConfigs.getByName("debug")
+        }
+    }
+
+    splits {
+        abi {
+            isEnable = true
+            reset()
+            include("armeabi-v7a", "arm64-v8a", "x86_64")
+            isUniversalApk = true
         }
     }
     compileOptions {

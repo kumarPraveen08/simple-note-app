@@ -10,6 +10,7 @@
 </p>
 
 <p align="center">
+  <a href="https://github.com/kumarPraveen08/simple-note-app/releases/latest">Download APK</a> ·
   <a href="docs/BUILD.md">Build guide</a> ·
   <a href="LICENSE">MIT License</a>
 </p>

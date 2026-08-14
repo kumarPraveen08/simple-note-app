@@ -1,13 +1,18 @@
-# Graph Report - MyApplication  (2026-08-13)
+# Graph Report - MyApplication  (2026-08-14)
 
 ## Corpus Check
-- 36 files · ~15,359 words
+- 38 files · ~154,861 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 324 nodes · 501 edges · 25 communities (22 shown, 3 thin omitted)
+- 338 nodes · 513 edges · 26 communities (22 shown, 4 thin omitted)
 - Extraction: 95% EXTRACTED · 5% INFERRED · 0% AMBIGUOUS · INFERRED: 24 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
+
+## Graph Freshness
+- Built from commit: `376143d8`
+- Run `git rev-parse HEAD` and compare to check if the graph is stale.
+- Run `graphify update .` after code changes (no API cost).
 
 ## Community Hubs (Navigation)
 - [[_COMMUNITY_Community 0|Community 0]]
@@ -26,8 +31,10 @@
 - [[_COMMUNITY_Community 13|Community 13]]
 - [[_COMMUNITY_Community 14|Community 14]]
 - [[_COMMUNITY_Community 15|Community 15]]
+- [[_COMMUNITY_Community 16|Community 16]]
+- [[_COMMUNITY_Community 17|Community 17]]
+- [[_COMMUNITY_Community 18|Community 18]]
 - [[_COMMUNITY_Community 21|Community 21]]
-- [[_COMMUNITY_Community 22|Community 22]]
 - [[_COMMUNITY_Community 23|Community 23]]
 - [[_COMMUNITY_Community 24|Community 24]]
 
@@ -58,7 +65,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (25 total, 3 thin omitted)
+## Communities (26 total, 4 thin omitted)
 
 ### Community 0 - "Community 0"
 Cohesion: 0.12
@@ -66,7 +73,7 @@ Nodes (13): AttachmentEntity, Boolean, Flow, FolderEntity, List, Long, NoteEntit
 
 ### Community 1 - "Community 1"
 Cohesion: 0.06
-Nodes (36): android, Boolean, FolderEntity, Int, Long, Modifier, NoteEntity, String (+28 more)
+Nodes (39): android, Boolean, FolderEntity, Int, Long, Modifier, NoteEntity, String (+31 more)
 
 ### Community 2 - "Community 2"
 Cohesion: 0.13
@@ -112,13 +119,17 @@ Nodes (6): AppThemeStyle, ChecklistItem, NoteColors, NoteFilter, NoteSort, Theme
 Cohesion: 0.40
 Nodes (4): AttachmentEntity, FolderEntity, NoteEntity, NoteVersionEntity
 
+### Community 17 - "Community 17"
+Cohesion: 0.25
+Nodes (7): Android Studio, Build guide, Command line, GitHub Releases, Release APKs, Sign with your own key (optional, recommended), What you need
+
+### Community 18 - "Community 18"
+Cohesion: 0.50
+Nodes (3): About, Features, Screenshots
+
 ### Community 21 - "Community 21"
 Cohesion: 0.18
 Nodes (10): applicationId, artifactType, kind, type, baselineProfiles, elements, elementType, minSdkVersionForDexing (+2 more)
-
-### Community 22 - "Community 22"
-Cohesion: 0.40
-Nodes (3): Bundle, ComponentActivity, MainActivity
 
 ### Community 23 - "Community 23"
 Cohesion: 0.18
@@ -129,24 +140,24 @@ Cohesion: 0.43
 Nodes (6): AppThemeStyle, Color, AppThemePalette, palette(), Surfaces, ThemePalettePreview
 
 ## Knowledge Gaps
-- **80 isolated node(s):** `version`, `type`, `kind`, `applicationId`, `variantName` (+75 more)
+- **89 isolated node(s):** `String`, `version`, `type`, `kind`, `applicationId` (+84 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **3 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **4 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `NoteEditorViewModel` connect `Community 3` to `Community 7`?**
-  _High betweenness centrality (0.036) - this node is a cross-community bridge._
+  _High betweenness centrality (0.033) - this node is a cross-community bridge._
 - **Why does `HomeViewModel` connect `Community 4` to `Community 7`?**
-  _High betweenness centrality (0.031) - this node is a cross-community bridge._
-- **Why does `NotesApp()` connect `Community 1` to `Community 22`, `Community 23`?**
-  _High betweenness centrality (0.027) - this node is a cross-community bridge._
-- **What connects `version`, `type`, `kind` to the rest of the system?**
-  _80 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _High betweenness centrality (0.028) - this node is a cross-community bridge._
+- **Why does `NotesApp()` connect `Community 1` to `Community 23`?**
+  _High betweenness centrality (0.025) - this node is a cross-community bridge._
+- **What connects `String`, `version`, `type` to the rest of the system?**
+  _89 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 0` be split into smaller, more focused modules?**
   _Cohesion score 0.12051282051282051 - nodes in this community are weakly interconnected._
 - **Should `Community 1` be split into smaller, more focused modules?**
-  _Cohesion score 0.06342494714587738 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.055272108843537414 - nodes in this community are weakly interconnected._
 - **Should `Community 2` be split into smaller, more focused modules?**
   _Cohesion score 0.1265597147950089 - nodes in this community are weakly interconnected._
